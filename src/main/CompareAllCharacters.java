@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 
 public class CompareAllCharacters {
 
-    // found 40 codes in windows-1252 that where decoded to different characters in ISO-8859-15
+    // found 40 codes in windows-1252 that were decoded to different characters in ISO-8859-15
 
     public static void main(String[] args) {
         compareCharsets("Cp1252", "ISO-8859-15");
