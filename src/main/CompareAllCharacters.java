@@ -28,7 +28,7 @@ public class CompareAllCharacters {
                 }
             }
         }
-        System.out.println(String.format("found %d codes in %s that where decoded to different characters in %s", numberOfunmatchedCharacters, charset1, charset2));
+        System.out.println(String.format("found %d codes in %s that were decoded to different characters in %s", numberOfunmatchedCharacters, charset1, charset2));
     }
 
     public static Character decodeByte(Charset charset, byte b) {
