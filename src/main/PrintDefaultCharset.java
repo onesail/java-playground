@@ -27,6 +27,7 @@ public class PrintDefaultCharset {
         System.out.println(String.format("%-15s (%2d)  %s", "Text", text.length(), text ));
         printBytes(text, Charset.forName("Cp1252"));
         printBytes(text, Charset.forName("ISO-8859-1"));
+        printBytes(text, Charset.forName("ISO-8859-15"));
         printBytes(text, Charset.forName("US-ASCII"));
         printBytes(text, Charset.forName("UTF-8"));
         printBytes(text, Charset.forName("UTF-16"));
